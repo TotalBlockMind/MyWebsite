@@ -1,0 +1,130 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.back{
+    background-color: gray;
+}
+.top-border{
+    width: 100%;
+    height: 55vh;
+    padding-top: 300px;
+    padding-left: 850px;
+    background-image: radial-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('1318047.jpg');
+    background-position: bottom;
+    object-fit: cover;
+}
+.ba{
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.header{
+    padding: 1rem;
+}
+a{
+    color: white;
+    text-decoration: none;
+    padding-right: 2rem;
+}
+.center{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.text1{
+    margin-left: -30px;
+    width: 500px;
+    text-align: center;
+}
+.text{
+    width: 450px;
+    text-align: center;
+}
+h1{
+    padding-bottom: 2rem;
+}
+p{
+    padding-bottom: 2rem;
+    line-height: 30px;
+}
+button{
+    padding: 0.7rem 1rem;
+    border: 1px solid rgb(184, 175, 175);
+    transition: 0.5s ease-in-out;
+}
+.s{
+    background-color: blue;
+    color: white;
+}
+button:hover{
+    background-color: blue;
+    color: white;
+}
+.s:hover{
+    background-color: white;
+    color: blue;
+}
+.below{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: minmax(300px);
+    gap: 10px;
+    padding: 2rem;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+}
+.p1{
+    padding-top: 1rem;
+}
+.p2{
+    color: blue;
+}
+.low-below{
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(300px);
+}
+.box2{
+    padding: 2rem;
+    
+}
+
+.box1{
+    object-fit: cover;
+    background-size: cover;
+    background-position: bottom;
+    padding-left: 100px;
+}
+.b2-des{
+    padding-top: 20px;
+    width: 500px;
+}
+.but2{
+    margin-left: 350px;
+}
+
+@media (max-width: 1025px) {
+    .below{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media (max-width: 500px) {
+    .below{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .low-below{
+        padding: 1rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
